@@ -1,0 +1,24 @@
+.menu {
+    position: relative;
+
+    color: var(--color-text-primary);
+    font-size: var(--font-small);
+    &List {
+        padding: 20px 40px;
+        display: flex;
+        gap: 20px;
+
+        list-style: none;
+    }
+
+    &Blob{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(20%, -50%);
+
+        width: 15em;
+
+        z-index: -1;
+    }
+}

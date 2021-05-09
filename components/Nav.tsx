@@ -1,11 +1,13 @@
 import { FunctionComponent } from "react"
 import Logo from "@components/Logo"
-import styles from "./Nav.module.scss"
+import s from "./Nav.module.scss"
+import Menu from "./Menu"
 
 const Nav: FunctionComponent = () => {
-    return <div>
+    return <nav className={s.container}>
         <Logo />
-    </div>
+        <Menu />
+    </nav>
 }
 
 export default Nav
