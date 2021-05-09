@@ -1,0 +1,20 @@
+.logo {
+    font-family: var(--font-primary);
+    font-size: var(--font-medium);
+    font-weight: bold;
+
+    display: inline-block;
+    position: relative;
+
+    &Blob {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        transform: translate(-30%, -40%);
+
+        width: 5em;
+        height: 5em;
+        z-index: -1;
+    }
+}
