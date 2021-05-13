@@ -1,9 +1,11 @@
 import s from './index.module.scss'
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={s.container}>
-      cześć
+      cześć1
     </div>
   )
 }
+
+export default Home;

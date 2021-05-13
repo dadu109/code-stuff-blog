@@ -1,15 +1,24 @@
 .menu {
     position: relative;
-
-    color: var(--color-text-primary);
     font-size: var(--font-small);
+    
     &List {
         padding: 20px 40px;
         display: flex;
         gap: 20px;
 
         list-style: none;
+        
+        a {
+            color: var(--color-text-primary);
+
+            &[aria-current] {
+                color: #000;
+                font-weight: 500;
+            }
+        }
     }
+
 
     &Blob{
         position: absolute;
