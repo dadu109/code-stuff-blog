@@ -1,4 +1,6 @@
 :root{
+    --gradient-angle: 45deg;
+    
     // Font families
     --font-primary: 'Poppins', sans-serif;
     --font-secondary: 'Cairo', sans-serif;
@@ -11,5 +13,13 @@
     --font-xlarge: 87px;
 
     //Colors
-    --color-text-primary: #3D3D3D;
+    --color-text-primary: #797979;
+    --color-text-dark: #3D3D3D;
+    --color-warm-primary: #FFBF81;
+    --color-warm-secondary: #FFA3A5;
+    --color-cold-primary: #79ADDC;
+    --color-cold-secondary: #ADF7B6;
+
+    --gradient-primary: linear-gradient(var(--gradient-angle), var(--color-warm-primary), var(--color-warm-secondary));
+    --gradient-primary: linear-gradient(var(--gradient-angle), var(--color-cold-primary), var(--color-cold-secondary));
 }

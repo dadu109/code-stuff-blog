@@ -2,7 +2,7 @@ import s from './index.module.scss'
 
 const Home = () => {
   return (
-    <div className={s.container}>
+    <div className={s.greeting}>
       cześć1
     </div>
   )
