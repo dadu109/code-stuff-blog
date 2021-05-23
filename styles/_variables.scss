@@ -10,7 +10,7 @@
     --font-small:  18px;
     --font-medium: 28px;
     --font-large:  36px;
-    --font-xlarge: 87px;
+    --font-xlarge: 72px;
 
     //Colors
     --color-text-primary: #797979;
@@ -21,5 +21,5 @@
     --color-cold-secondary: #ADF7B6;
 
     --gradient-primary: linear-gradient(var(--gradient-angle), var(--color-warm-primary), var(--color-warm-secondary));
-    --gradient-primary: linear-gradient(var(--gradient-angle), var(--color-cold-primary), var(--color-cold-secondary));
+    --gradient-secondary: linear-gradient(var(--gradient-angle), var(--color-cold-primary), var(--color-cold-secondary));
 }

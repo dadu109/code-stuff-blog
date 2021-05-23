@@ -1,15 +1,31 @@
 @use '../styles/mixin';
 
 .container {
-    height: 100vh;
+    margin-top: 180px;
 }
 
 .greeting {
-    @include mixin.gradient-font(var(--gradient-primary));
-
-    font: var(--font-secondary);
-    font-size: var(--font-xlarge);
-    font-weight: 700;
-
+    color: var(--color-text-dark);
     display: inline-block;
+    
+    &Heading{
+        font-family: var(--font-secondary);
+        font-size: var(--font-xlarge);
+        font-weight: 700;
+    }
+
+    &SubHeading{
+        font-size: var(--font-medium);
+        line-height: 100%;
+    }
+
+    .gradientPrimary{
+        font-weight: bold;
+        @include mixin.gradient-font(var(--gradient-primary));
+    }
+    
+    .gradientSecondary{
+        font-weight: bold;
+        @include mixin.gradient-font(var(--gradient-secondary));
+    }
 }
